@@ -1,40 +1,53 @@
-# 🧩 ForgeLab Dev
+# ForgeLab
 
-**ForgeLab** est une organisation dédiée à la conception d’infrastructures, d’outils et de logiciels innovants pour un écosystème numérique africain souverain et performant.
+**Le laboratoire open source de [LucidForge Africa](https://lucidforgeafrica.com).**
+Nous construisons des outils d'infrastructure souverains pensés pour les réalités de l'Afrique de l'Ouest : serveurs auto-hébergés, connectivité variable, paiement en FCFA, support en français.
 
----
-
-## 🚀 Notre mission
-Créer des solutions open source et des plateformes cloud locales, modernes et accessibles, tout en favorisant la collaboration entre développeurs, chercheurs et entreprises africaines.
+<sub>🇬🇧 *ForgeLab is the open-source lab of LucidForge Africa (Cotonou, Benin). We build sovereign, self-hosted infrastructure tools. Issues and pull requests in English are welcome.*</sub>
 
 ---
 
-## 🏗️ Nos pôles techniques
-ForgeLab est structuré autour de plusieurs équipes spécialisées :
+## 🔨 Projet phare
 
-- 🧠 **Core Team** — Architecture, normes de code, documentation et supervision technique.  
-- ⚙️ **DevOps Team** — CI/CD, déploiement et automatisation des infrastructures.  
-- 🔒 **Security Team** — Protection des données et conformité aux bonnes pratiques.  
-- 💻 **Backend Team** — Développement d’APIs et de services applicatifs.  
-- 🦀 **Rust Team** — Services performants et composants bas-niveau.  
-- 🐹 **Go Team** — Applications réseau et back-end distribués.  
-- 🗄️ **Database Team** — Conception et optimisation des bases de données.
+### [ForgeNet](https://github.com/forgelab-dev/lfa-forgenet) — le cloud souverain qui ne quitte jamais vos serveurs
+
+Déployez, surveillez et orchestrez vos services depuis votre propre machine, avec un assistant IA d'administration qui tourne **en local**. Vos logs ne partent jamais vers un cloud tiers.
+
+- Déploiement en un clic, push-to-deploy, HTTPS automatique
+- IA sysadmin 100 % locale (Ollama)
+- Conçu pour le bas débit : file d'attente locale et rejeu automatique
+- Application mobile Flutter pour les incidents à 2 h du matin
+
+`Go` · `React` · `Flutter` · Apache 2.0 · **pré-alpha**, en construction
+
+---
+
+## 🧭 Nos principes
+
+- **Souveraineté** — vos données restent sur vos serveurs.
+- **Sobriété** — des outils qui tournent sur un VPS modeste, pas seulement dans un datacenter.
+- **Transparence** — nous documentons honnêtement l'état réel de chaque projet.
 
 ---
 
 ## 🤝 Contribuer
-Les contributions sont les bienvenues !  
-Avant de soumettre une pull request, merci de :
-1. Consulter le guide de contribution (`CONTRIBUTING.md`)  
-2. Respecter les standards de code définis par la **Core Team**  
-3. Taguer l’équipe concernée via `@forgelab-dev/<team>`
+
+Le code n'est pas la seule porte d'entrée : signaler un bug, traduire, améliorer la documentation ou raconter votre usage comptent tout autant.
+
+1. Lisez le `CONTRIBUTING.md` du dépôt concerné (par exemple [celui de ForgeNet](https://github.com/forgelab-dev/lfa-forgenet/blob/main/CONTRIBUTING.md)).
+2. Pour une fonctionnalité conséquente, ouvrez d'abord une issue pour en discuter.
+3. Cherchez les issues étiquetées `good first issue` pour commencer.
+
+---
+
+## ❤️ Soutenir
+
+Nous développons avec des moyens modestes. Une ⭐ sur [ForgeNet](https://github.com/forgelab-dev/lfa-forgenet), un [sponsoring GitHub](https://github.com/sponsors/forgelab-dev) ou simplement en parler autour de vous nous aide énormément.
 
 ---
 
 ## 📬 Contact
-Pour toute question, suggestion ou collaboration :  
-📧 [ForgeLab](mailto:forgelucid@gmail.com)
 
----
+📧 [contact@lucidforgeafrica.com](mailto:contact@lucidforgeafrica.com) · 🌍 [lucidforgeafrica.com](https://lucidforgeafrica.com) · 📍 Cotonou, Bénin
 
-> _ForgeLab Dev — bâtir ensemble l’avenir numérique africain._
+<sub>ForgeLab by LucidForge Africa — parce que la souveraineté numérique ne devrait pas être un produit d'importation.</sub>
