@@ -7,7 +7,7 @@ Nous construisons des outils d'infrastructure souverains pensés pour les réali
 
 ---
 
-## 🔨 Projet phare
+## 🔨 Nos projets
 
 ### [ForgeNet](https://github.com/forgelab-dev/lfa-forgenet) — le cloud souverain qui ne quitte jamais vos serveurs
 
@@ -20,13 +20,19 @@ Déployez, surveillez et orchestrez vos services depuis votre propre machine, av
 
 `Go` · `React` · `Flutter` · Apache 2.0 · **pré-alpha**, en construction
 
+### [lucid_core_flutter](https://github.com/forgelab-dev/lucid_core_flutter) — le socle Flutter de nos applications
+
+Tout ce qu'une application Flutter réécrit sans cesse, prêt à l'emploi : client API avec cache et retry, authentification Firebase/Supabase, stockage chiffré (AES-256-GCM), thème clair/sombre et widgets, localisation française.
+
+`Flutter` · `Dart` · Apache 2.0 · publication sur pub.dev en préparation
+
 ---
 
 ## 🧭 Nos principes
 
 - **Souveraineté** — vos données restent sur vos serveurs.
 - **Sobriété** — des outils qui tournent sur un VPS modeste, pas seulement dans un datacenter.
-- **Transparence** — nous documentons honnêtement l'état réel de chaque projet.
+- **Transparence** — nous documentons honnêtement l'état réel de chaque projet, et nos feuilles de route sont publiques.
 
 ---
 
@@ -38,11 +44,13 @@ Le code n'est pas la seule porte d'entrée : signaler un bug, traduire, amélior
 2. Pour une fonctionnalité conséquente, ouvrez d'abord une issue pour en discuter.
 3. Cherchez les issues étiquetées `good first issue` pour commencer.
 
+Pour signaler une faille de sécurité, n'ouvrez pas d'issue publique : suivez le `SECURITY.md` du dépôt.
+
 ---
 
 ## ❤️ Soutenir
 
-Nous développons avec des moyens modestes. Une ⭐ sur [ForgeNet](https://github.com/forgelab-dev/lfa-forgenet), un [sponsoring GitHub](https://github.com/sponsors/forgelab-dev) ou simplement en parler autour de vous nous aide énormément.
+Nous développons avec des moyens modestes. Une ⭐ sur nos dépôts, un [sponsoring GitHub](https://github.com/sponsors/forgelab-dev) ou simplement en parler autour de vous nous aide énormément.
 
 ---
 
