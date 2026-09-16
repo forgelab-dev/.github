@@ -4,11 +4,9 @@ Ce dépôt fait partie de l'écosystème **ForgeLab**. Cette politique s'appliqu
 
 ## Signaler une vulnérabilité
 
-**➡️ [Report a vulnerability via GitHub](https://github.com/forgelab-dev/.github/security/advisories/new)**
+Utilisez le **signalement privé de GitHub** sur le dépôt concerné : onglet **Security** → **Report a vulnerability**. Ce canal est confidentiel : seuls les mainteneurs voient votre rapport.
 
-Utilisez le canal de signalement privé de GitHub pour toute vulnérabilité. Ce canal garantit la confidentialité de votre signalement et son suivi intégré.
-
-Si vous ne pouvez pas accéder au formulaire GitHub, vous pouvez nous contacter par e-mail : [contact@lucidforgeafrica.com](mailto:contact@lucidforgeafrica.com?subject=%5BSECURITY%5D%20Vulnerability%20report).
+Si vous ne pouvez pas utiliser GitHub, écrivez à [contact@lucidforgeafrica.com](mailto:contact@lucidforgeafrica.com?subject=%5BSECURITY%5D%20Vulnerability%20report), sans détail technique dans ce premier message : nous vous répondrons avec un moyen d'échange confidentiel.
 
 Merci d'inclure, dans la mesure du possible :
 
