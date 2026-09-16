@@ -58,7 +58,7 @@ body:
     id: terms
     attributes:
       label: Code de conduite
-      description: En soumettant cette issue, vous acceptez de respecter notre [Code de conduite](../CODE_OF_CONDUCT.md).
+      description: En soumettant cette issue, vous acceptez de respecter notre [Code de conduite](https://github.com/forgelab-dev/.github/blob/main/CODE_OF_CONDUCT.md).
       options:
         - label: J'accepte de respecter le Code de conduite de ce projet
           required: true
