@@ -1,0 +1,91 @@
+name: "🐞 Rapport de bug"
+description: "Signaler un dysfonctionnement pour nous aider à l'identifier et à le corriger."
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de remplir ce rapport de bug !
+        Vérifiez d'abord qu'un ticket similaire n'existe pas déjà dans les issues ouvertes.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description du bug
+      description: Une description claire et concise du problème rencontré.
+      placeholder: Décrivez ce qui se passe.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Comment reproduire le comportement ?
+      placeholder: |
+        1. Aller sur '...'
+        2. Cliquer sur '...'
+        3. Constater l'erreur
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+      description: Que devrait-il se passer à la place ?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Sévérité
+      description: À quel point ce bug impacte-t-il l'utilisation du produit ?
+      options:
+        - Faible (gêne mineure)
+        - Moyenne (fonctionnalité dégradée)
+        - Élevée (fonctionnalité bloquante)
+        - Critique (perte de données / indisponibilité)
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Version de l'application, tag ou hash de commit concerné.
+      placeholder: ex. v1.4.2 ou a1b2c3d
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environnement
+      description: Système, navigateur, appareil, version de l'OS, etc.
+      placeholder: |
+        - OS :
+        - Navigateur / App :
+        - Appareil :
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs pertinents
+      description: Copiez-collez les logs utiles. Ils seront automatiquement formatés en bloc de code.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code de conduite
+      description: En soumettant cette issue, vous acceptez de respecter notre [Code de conduite](https://github.com/forgelab-dev/.github/blob/main/CODE_OF_CONDUCT.md).
+      options:
+        - label: J'accepte de respecter le Code de conduite de ce projet
+          required: true
