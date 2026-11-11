@@ -24,7 +24,7 @@ Déployez, surveillez et orchestrez vos services depuis votre propre machine, av
 
 Tout ce qu'une application Flutter réécrit sans cesse, prêt à l'emploi : client API avec cache et retry, authentification Firebase/Supabase, stockage chiffré (AES-256-GCM), thème clair/sombre et widgets, localisation française.
 
-`Flutter` · `Dart` · Apache 2.0 · publication sur pub.dev en préparation
+`Flutter` · `Dart` · Apache 2.0 · [publié sur pub.dev](https://pub.dev/packages/lucid_core_flutter) (version 0.8.0), éditeur vérifié
 
 ---
 
